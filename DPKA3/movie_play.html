@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Play</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css" >
+    <link rel="stylesheet" href="assets/css/main.css" >
+    <link rel="stylesheet" href="assets/css/responsive.css" >
+ 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://vjs.zencdn.net/5.16/video-js.min.css" rel="stylesheet" />
+
+
+</head>
+<body class="gray_bg">
+    
+    <div class="wrap_body_page">
+        <div class="container-fluid bg_black">
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand logo" href="#">
+                        <img src="/assets/images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Anime</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Movie</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0 position-relative">
+                        <input class="form_search form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <i class="icon_search fas fa-search"></i>
+                      </form>
+                      <div class="profile">
+                        <button class="btn_profile"><i class="fas fa-user-circle"></i></button>
+                      </div>
+                      <div class="more_menu_burger">
+                        <button class="btn_more_menu"><i class="fas fa-bars"></i></button>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+        </div>
+
+        <div class="container">
+
+            <div class="wrap_video_play">
+                <div class="row">
+                    <div class="col-12 col-md-9">
+                        <div class="left_side">
+                            <video class="video-js vjs-default-skin vjs-fluid" controls width="640px" height="360px" data-setup='{ "techOrder": ["html5", "youtube"] }'></video>
+                            <button class="previous"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next"><i class="fas fa-chevron-right"></i></button>  
+                        </div>
+                        <div class="comment">
+                            <div class="row">
+                                <div class="col-12 col-md-7">
+                                    <span class="mr-4"><i class="fas fa-thumbs-up"></i> 1</span>
+                                    <span><i class="far fa-bookmark"></i> Favorit saya</span>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <button class="btn_comment"  type="button" data-toggle="modal" data-target="#modal_comment">
+                                        <i class="far fa-comment-alt"></i> Komentar
+                                        <span class="icon"><i class="fas fa-paper-plane"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+             
+                        </div>
+
+                        <div class="title_movie">
+                            <h2>The Killing Vote : Season 1</h2>
+                            <h6>Musim ke 1 dari Movie The Killing Vote</h6>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="right_side">
+                            <button class="join_vip mb-4">JOIN VIP</button>
+                            <h5>Semua Episode</h5>
+                            <div class="wrap_eps_check">
+                                <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E1</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E2</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E3</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E4</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E5</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E6</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E7</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E8</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E9</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E10</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E11</span>
+                                    </label>
+                                 </div>
+                                 <div class="cat eps">
+                                    <label>
+                                       <input type="checkbox" value="1"><span>E12</span>
+                                    </label>
+                                 </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+        </div>
+       
+
+    </div>
+    
+
+    <!-- Modal Comment -->
+    <div class="modal fade" id="modal_comment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <div class="title_comment">
+                    <h5>Komentar <span>980</span></h5>
+                </div>
+                <div class="comment_section">
+                    <div class="input_comment">
+                        <i class="icon_comment far fa-user-circle"></i>
+                        <form action="#">
+                            <div class="form-group">
+                                <input class="form-control form-control-lg" type="text" placeholder="Ketik sesuatu">
+                                <i class="far fa-comment-alt"></i>
+                                <button type="button" class="btn_comment_send"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="the_comment">
+                        <div class="input_comment">
+                            <i class="icon_comment far fa-user-circle"></i>
+                            <div class="content">
+                                <h6>iMoviee verse</h6>
+                                <h5>Welcome to iMovie</h5>
+                                <p>Terjemahkan</p>
+                                <div class="wrap_bottom_content">
+                                    <span class="mr-4">
+                                        <a href="#">
+                                            <i class="far fa-thumbs-up"></i> 1
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i class="far fa-comment-alt"></i> Balas
+                                        </a>
+                                    </span>
+                                    <span class="report">
+                                        <a href="#">
+                                            <i class="fas fa-exclamation-circle"></i> Laporkan komentar
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input_comment">
+                            <i class="icon_comment far fa-user-circle"></i>
+                            <div class="content">
+                                <h6>Ka Fir</h6>
+                                <h5>APLIKASIIIII NYAAAA KEREN BANGETT SEMANGAT TERUS</h5>
+                                <p>Terjemahkan</p>
+                                <div class="wrap_bottom_content">
+                                    <span class="mr-4">
+                                        <a href="#">
+                                            <i class="far fa-thumbs-up"></i> 1
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i class="far fa-comment-alt"></i> Balas
+                                        </a>
+                                    </span>
+                                    <span class="report">
+                                        <a href="#">
+                                            <i class="fas fa-exclamation-circle"></i> Laporkan komentar
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Movie Play -->
+<script src="https://vjs.zencdn.net/5.16/video.js"></script>
+<script src="https://cdn.rawgit.com/videojs/videojs-youtube/master/src/Youtube.js"></script>
+<script src="https://rawgit.com/atlance01/vrapp-ionic/master/www/js/lib/videojs-playlist.js"></script>
+<script src="/assets/js/video_play.js"></script>
+
+<script>
+
+var demo1 = new Moovie({
+  selector: "#example",
+  dimensions: {
+    width: "100%"
+  },
+  config: {
+    storage: {
+      captionOffset: false,
+      playrateSpeed: false,
+      captionSize: false
+    },
+    controls: {
+      playtime: false,
+      volume: false,
+      subtitles: false,
+      fullscreen: false,
+      submenuCaptions : true,
+      submenuOffset : false,
+      allowLocalSubtitles : false  
+    }
+  },
+  icons: {
+        path: "https://raw.githubusercontent.com/BMSVieira/moovie.js/main/icons/"
+  }
+});
+
+</script>
+
+</body>
+</html>
